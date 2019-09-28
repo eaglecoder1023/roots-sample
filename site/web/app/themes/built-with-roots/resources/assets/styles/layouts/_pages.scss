@@ -1,0 +1,16 @@
+.home-content {
+  @include media-breakpoint-up(md) {
+    order: 1;
+  }
+}
+.home-intro {
+  .img-logo {
+    margin-bottom: 30px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-top: 50px;
+    max-height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+}
